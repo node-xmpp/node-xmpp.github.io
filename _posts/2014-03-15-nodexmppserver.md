@@ -3,6 +3,7 @@ layout: page
 title: "node-xmpp-server"
 category: doc
 date: 2014-03-15 21:07:40
+order: 2
 ---
 
 * Name: __node-xmpp-server__
