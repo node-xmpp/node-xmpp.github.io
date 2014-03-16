@@ -7,7 +7,10 @@ date: 2014-03-15 21:07:32
 
 * Name: __node-xmpp-client__
 * NPM package name: __node-xmpp-client__
-* Source: __https://github.com/node-xmpp/node-xmpp-client_-
+* Source: __https://github.com/node-xmpp/node-xmpp-client__
+* Build status: [![Build Status](https://secure.travis-ci.org/node-xmpp/node-xmpp-client.png)](http://travis-ci.org/node-xmpp/node-xmpp-cient)
+
+An XMPP client library built using nodejs. Also runs in the browser thanks to browserify.
 
 ```
 var Client = require('node-xmpp-client')
