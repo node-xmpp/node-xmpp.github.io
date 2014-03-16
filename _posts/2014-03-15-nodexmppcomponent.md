@@ -5,9 +5,11 @@ category: doc
 date: 2014-03-15 21:07:55
 ---
 
-* Name: __node-xmpp-component
-* NPM package name: node-xmpp-component
-* Source: https://github.com/node-xmpp/node-xmpp-component
+* Name: __node-xmpp-component__
+* NPM package name: __node-xmpp-component__
+* Source: __https://github.com/node-xmpp/node-xmpp-component__
+
+An XMPP component library built in nodejs.
 
 ```
 var Component = require('node-xmpp-component')

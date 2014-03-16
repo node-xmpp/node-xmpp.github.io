@@ -5,9 +5,9 @@ category: doc
 date: 2014-03-15 21:07:32
 ---
 
-* Name: __node-xmpp-client
-* NPM package name: node-xmpp-client
-* Source: https://github.com/node-xmpp/node-xmpp-client
+* Name: __node-xmpp-client__
+* NPM package name: __node-xmpp-client__
+* Source: __https://github.com/node-xmpp/node-xmpp-client_-
 
 ```
 var Client = require('node-xmpp-client')
