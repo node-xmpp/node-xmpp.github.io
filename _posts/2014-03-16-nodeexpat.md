@@ -6,7 +6,6 @@ date: 2014-03-16 13:20:55
 order: 6
 ---
 
-
 * Name: __node-expat__
 * NPM package name: __node-expat__
 * Source: __https://github.com/node-xmpp/node-expat__
@@ -95,7 +94,8 @@ These numbers were recorded on a Core 2 2400 MHz.
 # Installation
 
 Install node-expat:
-```
+
+```bash
     npm i node-expat
 ```
 ## Installing on windows?
@@ -106,6 +106,6 @@ See https://github.com/node-xmpp/node-expat/issues/78 if you are getting errors 
 
 # Testing
 
-```
+```bash
 npm test
 ```

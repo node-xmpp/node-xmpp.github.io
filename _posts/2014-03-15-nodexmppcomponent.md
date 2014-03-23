@@ -13,7 +13,7 @@ order: 3
 
 An XMPP component library built in nodejs.
 
-```
+```javascript
 var Component = require('node-xmpp-component')
 var component = new Component(...parameters...)
 ```

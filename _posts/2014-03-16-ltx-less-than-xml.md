@@ -19,13 +19,13 @@ An XML parsing/building library built using nodejs. Also runs in the browser tha
 
 Parse a little document at once:
 
-```
-el = ltx.parse('<document/>')
+```javascript
+var xml = ltx.parse('<document/>')
 ```
 
 Push parser:
 
-```
+```javascript
 	p = new ltx.Parser()
 	p.on('tree', function(tree) {
 		proceed(null, tree);
@@ -39,13 +39,14 @@ Push parser:
 
 ltx implements multiple SAX backends:
 
-* *node-expat*: libexpat binding
-* *ltx*: fast native-JavaScript parser without error handling
-* *saxjs*: native-JavaScript parser
+* __node-expat__: libexpat binding
+* __ltx__: fast native-JavaScript parser without error handling
+* __saxjs__: native-JavaScript parser
 
 If present, they are available through
 `ltx.availableSaxParsers`. Mostly, you'll want to do:
-```
+
+```javascript
     parser = new ltx.bestSaxParser();
 ```
 
@@ -87,8 +88,8 @@ Refer to `lib/parse.js` for the interface.
 
 # Building XML Elements
 
-```
-    el = new ltx.Element('root').
+```javascript
+    var el = new ltx.Element('root').
 		c('children')
 	el.c('child', { age: 5 }).t('Hello').up()
 	  .c('child', { age: 7 }).t('Hello').up()

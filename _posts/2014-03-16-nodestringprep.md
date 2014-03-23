@@ -19,7 +19,7 @@ If ICU is not available then we make use of JavaScript fallbacks.
 
 # Usage
 
-```
+```javascript
     var StringPrep = require('node-stringprep').StringPrep;
     var prep = new StringPrep('nameprep');
     prep.prepare('Äffchen')  // => 'äffchen'

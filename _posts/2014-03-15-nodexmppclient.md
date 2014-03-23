@@ -13,7 +13,7 @@ order: 1
 
 An XMPP client library built using nodejs. Also runs in the browser thanks to browserify.
 
-```
+```javascript
 var Client = require('node-xmpp-client')
 var client = new Client(...parameters...)
 ```
@@ -40,7 +40,7 @@ var client = new Client(...parameters...)
 
 # Basic Example
 
-```
+```javascript
 var Client = require('node-xmpp-client')
 
 var client = new Client({
@@ -59,6 +59,22 @@ client.on('stanza', function(stanza) {
 
 # Closing a connection
 
-```
+```javascript
 client.end()
 ```
+
+# In the browser
+
+__node-xmpp-client__ can be run in the browser thanks to browserify. A latest bundled release should be found with each release.
+
+When using __node-xmpp-client__ within the browser you must specify either a `boshURL` or a `websocketsURL` in order to make the connection.
+
+## Manually builing
+
+In order to manually build the bundle install the developer dependencies, e.g.
+
+```bash
+npm i . --development
+```
+
+Then run `grunt browserify` the output file will then be generated for you.
