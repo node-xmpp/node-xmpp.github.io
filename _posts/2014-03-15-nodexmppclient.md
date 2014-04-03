@@ -37,7 +37,7 @@ var client = new Client(...parameters...)
 * __oauth2_auth__ [String]: OAuth2 namespace e.g. used for logging into google talk
 * __api_key__ [String]: For logging into Facebook XMPP account
 * __access_token__ [String]: For logging into Facebook XMPP account
-* __wait__ [String]: The HTTPBIND wait value. This is the time the server will wait before returning an empty result for a request. Default is 10 seconds.
+* __wait__ [String]: The HTTP-BIND wait value (in seconds). This is the time the server will wait before returning an empty result for a request. Default is 10 seconds.
 
 # Basic Example
 
