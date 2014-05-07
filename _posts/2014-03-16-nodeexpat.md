@@ -104,6 +104,15 @@ Dependencies for `node-gyp` https://github.com/TooTallNate/node-gyp#installation
 
 See https://github.com/node-xmpp/node-expat/issues/78 if you are getting errors about not finding `nan.h`.
 
+### expat.vcproj
+
+```VCBUILD : error : project file 'node-expat\build\deps\libexpat\expat.vcproj' was not found or not a valid proj
+ect file. [C:\Users\admin\AppData\Roaming\npm\node_modules\node-expat\build\bin
+ding.sln]
+```
+
+Install [Visual Studio C++ 2012](http://go.microsoft.com/?linkid=9816758) and run npm with the [`--msvs_version=2012` flag](http://stackoverflow.com/a/16854333/937891).
+
 # Testing
 
 ```bash
