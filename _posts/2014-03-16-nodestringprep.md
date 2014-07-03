@@ -40,6 +40,29 @@ var prep = new StringPrep('resourceprep')
 prep.isNative()  // true or false
 ```
 
+We also implement the ToASCII and ToUnicode operations as defined in the [IDNA RFC 3490](http://www.ietf.org/rfc/rfc3490.txt). These routines convert Unicode to ASCII with [NamePrep](http://www.ietf.org/rfc/rfc3491.txt) and then with [Punycode](http://www.ietf.org/rfc/rfc3492.txt), and vice versa.
+
+```javascript
+    var nodeStringPrep = require('node-stringprep');
+    nodeStringPrep.toASCII('i♥u') // 'xn--iu-t0x'
+    nodeStringPrep.toUnicode('xn--iu-t0x') // 'i♥u'
+```
+
+The operations can be finessed with an optional second argument, a set of boolean flags:
+
+```javascript
+    nodeStringPrep.toASCII('i♥u', {
+        allowUnassigned: true, // allow unassigned code points to be converted
+        throwIfError: true, // throw exception if error, don't return string unchanged
+        useSTD3Rules: true // use the STD3 ASCII rules for host names
+    })
+    nodeStringPrep.toUnicode('xn--iu-t0x', {
+        allowUnassigned: true // allow unassigned code points to be converted
+    })
+```
+
+
+
 ## Installation
 
 ```
