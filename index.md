@@ -1,18 +1,21 @@
 ---
 layout: default
-title: "Jekyll Docs Template"
 ---
 
-### Get Started
+> XMPP is an open technology for real-time communication, which powers a wide range of applications including instant messaging, presence, multi-party chat, voice and video calls, collaboration, lightweight middleware, content syndication, and generalized routing of XML data.
 
-Start by [creating a new post](http://jekyllrb.com/docs/posts/) one of the categories listed in `_config.yml`. It will appear in the navigation on the left once recompiled. Or use the supplied script to make creating pages easier:
+Visit the [official website](http://xmpp.org/about-xmpp/technology-overview/) to learn more about XMPP.
 
-```bash
-ruby bin/jekyll-page "Some Page Title" ref
-```
+node-xmpp is a set of JavaScript Node.js, io.js and browser modules to work with XMPP and/or XML.
 
-#### Don't Forget
+← Check out the documentation to know more about each piece.
 
-- Add your own content to this page (i.e. `index.md`) and change the `title`
-- Change `title` and `subtitle` defined in `config.yml` for your site
-- Set the `baseurl` in `_config.yml` for your repo if deploying to GitHub pages
+If you you'd like to chat, contribute or help, please join us in our XMPP chat room ```node-xmpp@muc.node-xmpp.org``` via your XMPP client or our [webchat](http://node-xmpp.org/webchat/).
+
+##### Goals
+* Use Node.js/io.js conventions, especially EventEmitter, ie. for write buffer control
+* Fast, node-expat was written for node-xmpp
+* XMPP component
+* XMPP server with C2S, S2S, BOSH and WebSocket support
+* XMPP client with TCP, BOSH, WebSocket transports and browser support
+* Modules and libraries decoupling, resusability

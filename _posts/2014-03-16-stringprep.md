@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "node-stringprep"
+title: "stringprep"
 category: doc
 date: 2014-03-16 13:17:18
 order: 5
@@ -91,19 +91,19 @@ If experiencing issues with __node-gyp__ please see https://github.com/TooTallNa
     emerge icu
 ```
 
-### OSX 
+### OSX
 #### MacPorts
 
 ```
     port install icu +devel
 ```
 
-#### Boxen 
+#### Boxen
 
 ```
     sudo ln -s /opt/boxen/homebrew/Cellar/icu4c/52.1/bin/icu-config /usr/local/bin/icu-config
     sudo ln -s /opt/boxen/homebrew/Cellar/icu4c/52.1/include/* /usr/local/include
-``` 
+```
 
 #### Homebrew
     brew install icu4c
