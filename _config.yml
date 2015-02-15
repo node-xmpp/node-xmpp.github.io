@@ -34,7 +34,7 @@ colors: true
 future: true
 
 # Exclude non-site files
-exclude: ['bin', 'README.md' 'LICENSE']
+exclude: ['bin', 'README.md', 'LICENSE']
 
 # Use the redcarpet Markdown renderer
 markdown: redcarpet
