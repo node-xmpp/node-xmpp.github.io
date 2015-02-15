@@ -10,7 +10,7 @@ node-xmpp is a set of JavaScript Node.js, io.js and browser modules to work with
 
 ← Check out the documentation to know more about each piece.
 
-If you you'd like to chat, contribute or help, please join us in our XMPP chat room ```node-xmpp@muc.node-xmpp.org``` via your XMPP client or our [webchat](http://node-xmpp.org/webchat/).
+If you you'd like to chat, contribute or help, please join us in our XMPP chat room ```node-xmpp@conference.dukgo.org``` via your XMPP client or our [webchat](http://node-xmpp.org/webchat/).
 
 ##### Goals
 * Use Node.js/io.js conventions, especially EventEmitter, ie. for write buffer control
