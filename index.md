@@ -12,7 +12,7 @@ node-xmpp is a set of JavaScript Node.js, io.js and browser modules to work with
 
 If you you'd like to chat, contribute or help, please join us in our XMPP chat room ```node-xmpp@muc.node-xmpp.org``` via your XMPP client or our [webchat](http://node-xmpp.org/webchat/).
 
-##### Objectives of node-xmpp:
+##### Goals
 * Use Node.js/io.js conventions, especially EventEmitter, ie. for write buffer control
 * Fast, node-expat was written for node-xmpp
 * XMPP component
