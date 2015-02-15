@@ -4,9 +4,9 @@ layout: default
 
 > XMPP is an open technology for real-time communication, which powers a wide range of applications including instant messaging, presence, multi-party chat, voice and video calls, collaboration, lightweight middleware, content syndication, and generalized routing of XML data.
 
-Visit the [official website](http://xmpp.org/about-xmpp/technology-overview/) to learn more about XMPP.
+> [http://xmpp.org/about-xmpp/technology-overview/](http://xmpp.org/about-xmpp/technology-overview/)
 
-node-xmpp is a set of JavaScript Node.js, io.js and browser modules to work with XMPP and/or XML.
+__node-xmpp__ is a set of JavaScript Node.js, io.js and browser modules to work with XMPP and/or XML.
 
 ← Check out the documentation to know more about each piece.
 
