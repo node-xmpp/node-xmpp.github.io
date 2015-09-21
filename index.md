@@ -10,7 +10,7 @@ __node-xmpp__ is a set of JavaScript Node.js, io.js and browser modules to work 
 
 ← Check out the documentation to know more about each piece.
 
-If you you'd like to chat, contribute or help, please join us in our XMPP chat room ```node-xmpp@conference.dukgo.org``` via your XMPP client or our [webchat](http://node-xmpp.org/webchat/).
+If you you'd like to chat, contribute or help, please join us in our XMPP chat room ```node-xmpp@conference.dukgo.org```.
 
 ##### Goals
 * Use Node.js/io.js conventions, especially EventEmitter, ie. for write buffer control
